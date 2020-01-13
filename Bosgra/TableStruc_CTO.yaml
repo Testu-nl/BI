@@ -1,0 +1,424 @@
+#Author  	Ronald Schilperoort
+#Date   07-01-2020
+#Update  10-01-2010 RS  Toevoeging tabelstructuur Ogen
+#Beschrijving  Tabelstructuur voor mapping met bulkdata
+#Dit script maakt per Bosgra dashboard een aparte tabel in
+#Dbase  Dwh_staging
+#Schema  Bosgra
+
+Table_structure 
+    Scopie  |
+       [Response ID] VARCHAR(MAX NULL
+       ,[Date Submitted] VARCHAR(MAX NULL
+       ,[Link Name] VARCHAR(MAX NULL
+       ,[Bent u in de afgelopen 12 maanden opgenomen of behandeld geweest in de kliniek] VARCHAR(MAX NULL
+       ,[Kreeg u vooraf informatie over de zorg in de kliniek, zodat u wist wat u kon verwachten] VARCHAR(MAX NULL
+       ,[Bepaalt u samen met de zorgverleners welke zorg of behandeling u krijgt] VARCHAR(MAX NULL
+       ,[Zijn de voor- en nadelen van de behandeling of operatie aan u verteld] VARCHAR(MAX NULL
+       ,[Krijgt u duidelijke informatie over de werking van uw medicijnen] VARCHAR(MAX NULL
+       ,[Krijgt u adviezen van zorgverleners over hoe u met uw ziekte of klachten kunt omgaan in de thuissituatie] VARCHAR(MAX NULL
+       ,[Luisteren de zorgverleners goed naar u] VARCHAR(MAX NULL
+       ,[Heeft u vertrouwen in de deskundigheid van de zorgverleners] VARCHAR(MAX NULL
+       ,[Is er een goede samenwerking tussen de zorgverleners in de kliniek] VARCHAR(MAX NULL
+       ,[Sluiten de verschillende afspraken goed op elkaar aan] VARCHAR(MAX NULL
+       ,[Hebben medewerkers van de kliniek aandacht voor veiligheid] VARCHAR(MAX NULL
+       ,[Wordt er schoon gewerkt door de medewerkers van de kliniek] VARCHAR(MAX NULL
+       ,[Hoe gaat het nu met uw gezondheid als gevolg van de behandeling] VARCHAR(MAX NULL
+       ,[Was dit een acceptabele termijn voor u] VARCHAR(MAX NULL
+       ,[Hoe beoordeelt u de telefonische bereikbaarheid ] VARCHAR(MAX NULL
+       ,[Hoe werd u telefonisch geholpen] VARCHAR(MAX NULL
+       ,[Wat vindt u van de bereikbaarheid en parkeergelegenheid] VARCHAR(MAX NULL
+       ,[Hoe beoordeelt u de ontvangst] VARCHAR(MAX NULL
+       ,[Werd u op de afgesproken tijd ontvangen] VARCHAR(MAX NULL
+       ,[Hoe beoordeelt u de wachttijd voorafgaand aan de afspraak] VARCHAR(MAX NULL
+       ,[Betrof het een second opinion] VARCHAR(MAX NULL
+       ,[Kreeg u van de specialist duidelijk antwoord op uw vragen] VARCHAR(MAX NULL
+       ,[Gaf de specialist u informatie over waarom een bepaald onderzoek of bepaalde behandeling de voorkeur had] VARCHAR(MAX NULL
+       ,[Kreeg u schriftelijke informatie over wat er precies ging gebeuren bij het onderzoek of de behandeling] VARCHAR(MAX NULL
+       ,[Kreeg u informatie over hoe u zich kon voorbereiden op het onderzoek of de behandeling] VARCHAR(MAX NULL
+       ,[Geef uw rapportcijfer voor de informatieverstrekking voorafgaand aan uw behandeling] VARCHAR(MAX NULL
+       ,[Wat vindt u van de tijd die de specialist voor u heeft genomen] VARCHAR(MAX NULL
+       ,[Hoe goed heeft de specialist naar uw inbreng geluisterd] VARCHAR(MAX NULL
+       ,[Wat vindt u van het persoonlijk contact met de specialist] VARCHAR(MAX NULL
+       ,[Geef uw rapportcijfer voor de bejegening door de behandelaar naar u toe] VARCHAR(MAX NULL
+       ,[Wat vindt u van de medische deskundigheid van de specialist] VARCHAR(MAX NULL
+       ,[Zou u deze specialist bij uw vrienden of familie aanbevelen] VARCHAR(MAX NULL
+       ,[Op welke termijn kon u een behandeling krijgen] VARCHAR(MAX NULL
+       ,[Was dit een acceptabele behandelingstermijn voor u] VARCHAR(MAX NULL
+       ,[Heeft u voor de behandeling een roesje gekregen] VARCHAR(MAX NULL
+       ,[Hoe beoordeelt u de bijkomruimte] VARCHAR(MAX NULL
+       ,[Was uw privacy voldoende gewaarborgd] VARCHAR(MAX NULL
+       ,[Namen de verpleegkundigen u serieus] VARCHAR(MAX NULL
+       ,[Hadden de verpleegkundigen genoeg tijd voor u] VARCHAR(MAX NULL
+       ,[Luisterden de verpleegkundigen aandachtig naar u] VARCHAR(MAX NULL
+       ,[Legden verpleegkundigen u dingen op een begrijpelijke manier uit] VARCHAR(MAX NULL
+       ,[Welk cijfer geeft u de verpleegkundigen] VARCHAR(MAX NULL
+       ,[Deden medewerkers alles wat ze konden om u met uw pijn te helpen] VARCHAR(MAX NULL
+       ,[Voelde u zich bij medewerkers in vertrouwde handen] VARCHAR(MAX NULL
+       ,[Wat vindt u van het resultaat van de behandeling] VARCHAR(MAX NULL
+       ,[Geef uw rapportcijfer voor de behandeling] VARCHAR(MAX NULL
+       ,[Kreeg u informatie over waar u last van kon krijgen n&aacute; het onderzoek of de behandeling] VARCHAR(MAX NULL
+       ,[Is u verteld met wie u contact kon opnemen bij problemen of klachten] VARCHAR(MAX NULL
+       ,[Geef uw rapportcijfer voor de door de kliniek verleende nazorg] VARCHAR(MAX NULL
+       ,[Heeft u, tijdens uw behandeling in de kliniek, te maken gehad met een onveilige situatie of incident] VARCHAR(MAX NULL
+       ,[Ja namelijk.Heeft u tijdens uw behandeling in de kliniek, te maken gehad met een onveilige situatie of incident] VARCHAR(MAX NULL
+       ,[Heeft u voldoende informatie gekregen over pati&euml;ntveiligheid in de kliniek] VARCHAR(MAX NULL
+       ,[Werd voordat een behandeling onderzoek of ingreep begon gecontroleerd of u de juiste persoon was] VARCHAR(MAX NULL
+       ,[Hoe veilig vond u de uitvoering van de gehele behandeling] VARCHAR(MAX NULL
+       ,[Geef uw rapportcijfer voor de totaalindruk van de kliniek] VARCHAR(MAX NULL
+#    Ogen  |
+#       [Response ID] VARCHAR(MAX NULL
+#       ,[Date Submitted] VARCHAR(MAX NULL
+#       ,[Status] VARCHAR(MAX NULL
+#       ,[Invite Custom Field 1] VARCHAR(MAX NULL
+#       ,[Invite Custom Field 2] VARCHAR(MAX NULL
+#       ,[Link Name] VARCHAR(MAX NULL
+#       ,[Kreeg u vooraf informatie over de zorg in de kliniek zodat u wist wat u kon verwachten] VARCHAR(MAX NULL
+#       ,[Bepaalt u samen met de zorgverleners welke zorg of behandeling u krijgt] VARCHAR(MAX NULL
+#       ,[Zijn de voor- en nadelen van de behandeling of operatie aan u verteld] VARCHAR(MAX NULL
+#       ,[Krijgt u duidelijke informatie over de werking van uw medicijnen] VARCHAR(MAX NULL
+#       ,[Krijgt u adviezen van zorgverleners over hoe u met uw ziekte of klachten kunt omgaan in de thuissituatie] VARCHAR(MAX NULL
+#       ,[Luisteren de zorgverleners goed naar u] VARCHAR(MAX NULL
+#       ,[Heeft u vertrouwen in de deskundigheid van de zorgverleners] VARCHAR(MAX NULL
+#       ,[Is er een goede samenwerking tussen de zorgverleners in de kliniek] VARCHAR(MAX NULL
+#       ,[Sluiten de verschillende afspraken goed op elkaar aan] VARCHAR(MAX NULL
+#       ,[Hebben medewerkers van de kliniek aandacht voor veiligheid] VARCHAR(MAX NULL
+#       ,[Wordt er schoon gewerkt door de medewerkers van de kliniek] VARCHAR(MAX NULL
+#       ,[Hoe gaat het nu met uw gezondheid als gevolg van de behandeling] VARCHAR(MAX NULL
+#       ,[Zou u de kliniek aanbevelen bij andere mensen met dezelfde ziekte of gezondheidsklachten] VARCHAR(MAX NULL
+#       ,[Ik vooraf informatie krijg over de zorg in de kliniek zodat ik weet wat ik kan verwachten] VARCHAR(MAX NULL
+#       ,[Ik samen met de zorgverleners bepaal welke zorg of behandeling ik krijg] VARCHAR(MAX NULL
+#       ,[De voor- en nadelen van de behandeling of operatie aan mij zijn verteld] VARCHAR(MAX NULL
+#       ,[Ik duidelijke informatie krijg over de werking van mijn medicijnen] VARCHAR(MAX NULL
+#       ,[Ik adviezen krijg van zorgverleners over hoe ik met mijn ziekte of klachten kan omgaan in de thuissituatie] VARCHAR(MAX NULL
+#       ,[De zorgverleners goed naar mij luisteren] VARCHAR(MAX NULL
+#       ,[Ik vertrouwen heb in de deskundigheid van de zorgverleners] VARCHAR(MAX NULL
+#       ,[Er een goede samenwerking is tussen de zorgverleners in de kliniek] VARCHAR(MAX NULL
+#       ,[De verschillende afspraken goed op elkaar aansluiten] VARCHAR(MAX NULL
+#       ,[De medewerkers van de kliniek aandacht hebben voor veiligheid] VARCHAR(MAX NULL
+#       ,[Er schoon wordt gewerkt door de medewerkers van de kliniek] VARCHAR(MAX NULL
+#       ,[Bent u in de afgelopen 12 maanden opgenomen of behandeld geweest in de kliniek] VARCHAR(MAX NULL
+#       ,[Heeft u in de afgelopen 12 maanden een staaroperatie ondergaan in de kliniek] VARCHAR(MAX NULL
+#       ,[Verborgen vraag In welke vestiging van Bergman Clinics bent u behandeld] VARCHAR(MAX NULL
+#       ,[Verborgen vraag In welke vestiging van Bergman Clinics bent u behandeld Mijn Bergman app URL] VARCHAR(MAX NULL
+#       ,[Verborgen vraag Door welke arts bent u behandeld] VARCHAR(MAX NULL
+#       ,[Verborgen vraag Door welke arts bent u behandeld Mijn Bergman app URL] VARCHAR(MAX NULL
+#       ,[In welke vestiging van Bergman Clinics bent u behandeld] VARCHAR(MAX NULL
+#       ,[Anders namelijk In welke vestiging van Bergman Clinics bent u behandeld] VARCHAR(MAX NULL
+#       ,[Door welke arts bent u met name behandeld] VARCHAR(MAX NULL
+#       ,[Anders namelijkDoor welke arts bent u met name behandeld] VARCHAR(MAX NULL
+#       ,[Was dit een acceptabele termijn voor u] VARCHAR(MAX NULL
+#       ,[Was het mogelijk om een afspraak te maken op een door u gewenste dag] VARCHAR(MAX NULL
+#       ,[Hoe werd u bij binnenkomst van de kliniek ontvangen] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de kwaliteit van het vooronderzoek] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de deskundigheid van de assistent] VARCHAR(MAX NULL
+#       ,[Werd u gedurende het hele traject door dezelfde arts behandeld] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de voorlichting over de resultaten alternatieven en risico van de behandeling] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de informatie over de nazorg na uw behandeling] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de patiënteninformatie over ziektebeelden zoals brochures en brieven] VARCHAR(MAX NULL
+#       ,[Geef uw rapportcijfer voor de informatieverstrekking voorafgaand aan uw behandeling] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de tijd die de arts voor u heeft genomen] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de manier waarop de arts naar uw inbreng heeft geluisterd] VARCHAR(MAX NULL
+#       ,[Wat vindt u van het persoonlijk contact met de arts] VARCHAR(MAX NULL
+#       ,[Geef uw rapportcijfer voor de bejegening door de behandelaar naar u toe] VARCHAR(MAX NULL
+#       ,[Welke behandeling heeft u ondergaan] VARCHAR(MAX NULL
+#       ,[Anders namelijk Welke behandeling heeft u ondergaan] VARCHAR(MAX NULL
+#       ,[Zou u met uw huidige ervaring als u de keuze had weer de beslissing nemen om deze behandeling te doen] VARCHAR(MAX NULL
+#       ,[Zou u de behandeling weer bij onze kliniek laten doen] VARCHAR(MAX NULL
+#       ,[Raadt u vrienden en familie een behandeling aan] VARCHAR(MAX NULL
+#       ,[Raadt u hen aan zich bij onze kliniek te laten behandelen] VARCHAR(MAX NULL
+#       ,[Hoe beoordeelt u de kwaliteit van het zicht ten opzichte van voorheen] VARCHAR(MAX NULL
+#       ,[Hoe beoordeelt u het resultaat aan uw verwachtingen] VARCHAR(MAX NULL
+#       ,[Wat voor totaalcijfer geeft u het zicht na de behandeling] VARCHAR(MAX NULL
+#       ,[Hoe beoordeelt u de kwaliteit van uw dagelijks leven na de behandeling ten opzichte van ervoor] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de medische deskundigheid van de arts] VARCHAR(MAX NULL
+#       ,[Hoe vindt u de begeleiding verzorging door het verpleegkundig personeel] VARCHAR(MAX NULL
+#       ,[Wat vindt u van het uiteindelijke resultaat van de behandeling] VARCHAR(MAX NULL
+#       ,[Geef uw rapportcijfer voor de behandeling] VARCHAR(MAX NULL
+#       ,[Geef uw rapportcijfer voor de door de kliniek verleende nazorg _herstelperiode controles medicatie noodgevallen] VARCHAR(MAX NULL
+#       ,[Heeft u tijdens uw behandeling in de kliniek te maken gehad met een onveilige situatie of incident] VARCHAR(MAX NULL
+#       ,[Ja namelijk Heeft u tijdens uw behandeling in de kliniek te maken gehad met een onveilige situatie of incident] VARCHAR(MAX NULL
+#       ,[Heeft u voldoende informatie gekregen over patientveiligheid in de kliniek] VARCHAR(MAX NULL
+#       ,[Werd voordat een behandeling onderzoek of ingreep begon gecontroleerd of u de juiste persoon was] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de bereikbaarheid van de kliniek] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de parkeergelegenheid van de kliniek] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de telefonische bereikbaarheid van de kliniek] VARCHAR(MAX NULL
+#       ,[Hoe werd u telefonisch geholpen] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de telefonische bereikbaarheid van de spoedlijn van de kliniek buiten kantoortijden] VARCHAR(MAX NULL
+#       ,[Hoe beoordeelt u de ontvangst in de kliniek en de wachttijd bij de balie] VARCHAR(MAX NULL
+#       ,[Hoe beoordeelt u de voorzieningen in de wachtruimte] VARCHAR(MAX NULL
+#       ,[Hoe vaak werd u binnen 15 minuten na de afgesproken tijd door de arts geholpen] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de wachttijd voor de afspraak] VARCHAR(MAX NULL
+#       ,[Geef uw rapportcijfer voor de totaalindruk van de kliniek] VARCHAR(MAX NULL
+#    Vrouwenzorg  |
+#       [Response ID] VARCHAR(MAX NULL
+#       ,[Date Submitted] VARCHAR(MAX NULL
+#       ,[Status] VARCHAR(MAX NULL
+#       ,[Invite Custom Field 1] VARCHAR(MAX NULL
+#       ,[Invite Custom Field 2] VARCHAR(MAX NULL
+#       ,[Link Name] VARCHAR(MAX NULL
+#       ,[Kreeg u vooraf informatie over de zorg in de kliniek zodat u wist wat u kon verwachten] VARCHAR(MAX NULL
+#       ,[Bepaalt u samen met de zorgverleners welke zorg of behandeling u krijgt] VARCHAR(MAX NULL
+#       ,[Zijn de voor- en nadelen van de behandeling of operatie aan u verteld] VARCHAR(MAX NULL
+#       ,[Krijgt u duidelijke informatie over de werking van uw medicijnen] VARCHAR(MAX NULL
+#       ,[Krijgt u adviezen van zorgverleners over hoe u met uw ziekte of klachten kunt omgaan in de thuissituatie] VARCHAR(MAX NULL
+#       ,[Luisteren de zorgverleners goed naar u] VARCHAR(MAX NULL
+#       ,[Heeft u vertrouwen in de deskundigheid van de zorgverleners] VARCHAR(MAX NULL
+#       ,[Is er een goede samenwerking tussen de zorgverleners in de kliniek] VARCHAR(MAX NULL
+#       ,[Sluiten de verschillende afspraken goed op elkaar aan] VARCHAR(MAX NULL
+#       ,[Hebben medewerkers van de kliniek aandacht voor veiligheid] VARCHAR(MAX NULL
+#       ,[Wordt er schoon gewerkt door de medewerkers van de kliniek] VARCHAR(MAX NULL
+#       ,[Hoe gaat het nu met uw gezondheid als gevolg van de behandeling] VARCHAR(MAX NULL
+#       ,[Zou u de kliniek aanbevelen bij andere mensen met dezelfde ziekte of gezondheidsklachten] VARCHAR(MAX NULL
+#       ,[Bent u in de afgelopen 12 maanden opgenomen of behandeld geweest in de kliniek] VARCHAR(MAX NULL
+#       ,[Verborgen vraag Welke vestiging van Bergman Clinics Vrouw heeft u bezocht] VARCHAR(MAX NULL
+#       ,[Verborgen vraag Welke vestiging van Bergman Clinics Vrouw heeft u bezocht URL Mijn Bergman app] VARCHAR(MAX NULL
+#       ,[Verborgen vraag Door welke arts bent u behandeld] VARCHAR(MAX NULL
+#       ,[Verborgen vraag Door welke arts bent u behandeld URL Mijn Bergman app] VARCHAR(MAX NULL
+#       ,[Was dit een acceptabele behandelingstermijn voor u] VARCHAR(MAX NULL
+#       ,[Hoe beoordeelt u de telefonische bereikbaarheid] VARCHAR(MAX NULL
+#       ,[Hoe werd u telefonisch geholpen] VARCHAR(MAX NULL
+#       ,[Heeft u binnen 5 dagen schriftelijke informatie thuis ontvangen] VARCHAR(MAX NULL
+#       ,[Was deze informatie waardevol] VARCHAR(MAX NULL
+#       ,[Hoe beoordeelt u de website van Bergman Clinics  Vrouw] VARCHAR(MAX NULL
+#       ,[Welke vestiging van Bergman Clinics Vrouw heeft u bezocht] VARCHAR(MAX NULL
+#       ,[Anders namelijk Welke vestiging van Bergman Clinics Vrouw heeft u bezocht] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de bereikbaarheid] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de parkeergelegenheid] VARCHAR(MAX NULL
+#       ,[Hoe beoordeelt u de ontvangst _gastvrij vriendelijk] VARCHAR(MAX NULL
+#       ,[Werd u op de afgesproken tijd ontvangen] VARCHAR(MAX NULL
+#       ,[Door welke arts bent u behandeld] VARCHAR(MAX NULL
+#       ,[Anders namelijk Door welke arts bent u behandeld] VARCHAR(MAX NULL
+#       ,[Hoe goed heeft de arts naar uw inbreng geluisterd] VARCHAR(MAX NULL
+#       ,[Wat vindt u van het persoonlijk contact met de arts] VARCHAR(MAX NULL
+#       ,[Geef uw rapportcijfer voor de bejegening door de behandelaar naar u toe] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de medische deskundigheid van de arts] VARCHAR(MAX NULL
+#       ,[Zou u deze specialist bij uw vrienden of familie aanbevelen] VARCHAR(MAX NULL
+#       ,[Welk onderzoek heeft u ondergaan] VARCHAR(MAX NULL
+#       ,[Anders namelijk.Welk onderzoek heeft u ondergaan] VARCHAR(MAX NULL
+#       ,[Was dit een acceptabele onderzoekstermijn voor u] VARCHAR(MAX NULL
+#       ,[Kreeg u voldoende mondelinge informatie van de arts over het onderzoek] VARCHAR(MAX NULL
+#       ,[Kreeg u voldoende schriftelijke informatie van de arts over het onderzoek] VARCHAR(MAX NULL
+#       ,[Geef uw rapportcijfer voor de informatieverstrekking voorafgaand aan uw onderzoek] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de begeleiding tijdens het onderzoek] VARCHAR(MAX NULL
+#       ,[Was hiervan uw privacy voldoende gewaarborgd] VARCHAR(MAX NULL
+#       ,[Hoe tevreden bent u over het onderzoek] VARCHAR(MAX NULL
+#       ,[Welke behandeling heeft u ondergaan bij Bergman Clinics Vrouw] VARCHAR(MAX NULL
+#       ,[Anders namelijk Welke behandeling heeft u ondergaan bij Bergman Clinics] VARCHAR(MAX NULL
+#       ,[Was dit een acceptabele behandelings termijn voor u] VARCHAR(MAX NULL
+#       ,[Kreeg u voldoende mondelinge informatie van de arts over de behandeling] VARCHAR(MAX NULL
+#       ,[Kreeg u voldoende schriftelijke informatie van de arts over de behandeling] VARCHAR(MAX NULL
+#       ,[Geef uw rapportcijfer voor de informatieverstrekking voorafgaand aan uw behandeling] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de begeleiding tijdens de behandeling] VARCHAR(MAX NULL
+#       ,[Was uw privacy voldoende gewaarborgd] VARCHAR(MAX NULL
+#       ,[Geef uw rapportcijfer voor de behandeling] VARCHAR(MAX NULL
+#       ,[Kreeg u voldoende informatie over wat u kon verwachten in de herstelperiode] VARCHAR(MAX NULL
+#       ,[Was het duidelijk met wie u contact kon opnemen bij vragen of problemen na de behandeling] VARCHAR(MAX NULL
+#       ,[Geef uw rapportcijfer voor de door de kliniek verleende nazorg na de behandeling] VARCHAR(MAX NULL
+#       ,[Wat vindt u van het resultaat van de behandeling] VARCHAR(MAX NULL
+#       ,[Hoe tevreden bent u over het gehele behandeltraject] VARCHAR(MAX NULL
+#       ,[Bent u geopereerd bij deze kliniek] VARCHAR(MAX NULL
+#       ,[Op welke locatie bent u geopereerd] VARCHAR(MAX NULL
+#       ,[Anders namelijk Op welke locatie bent u geopereerd] VARCHAR(MAX NULL
+#       ,[Was dit een acceptabele termijn voor u] VARCHAR(MAX NULL
+#       ,[Kreeg u voldoende mondelinge informatie van de arts over de operatie] VARCHAR(MAX NULL
+#       ,[Kreeg u voldoende schriftelijke informatie van de arts over de operatie] VARCHAR(MAX NULL
+#       ,[Welk rapportcijfer geeft u de informatie voorafgaand aan uw operatie] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de begeleiding rond de operatie door de anaesthesist] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de begeleiding rond de operatie door de verpleegkundige] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de begeleiding rond de operatie door de specialist] VARCHAR(MAX NULL
+#       ,[Hoe tevreden bent u over de operatie locatie] VARCHAR(MAX NULL
+#       ,[Voelde u zich bij medewerkers in vertrouwde handen] VARCHAR(MAX NULL
+#       ,[Werden uw pijnklachten adequaat aangepakt direct na de operatie] VARCHAR(MAX NULL
+#       ,[Was uw privacy over pijnklachten voldoende gewaarborgd] VARCHAR(MAX NULL
+#       ,[Hoe tevreden bent u over de operatie] VARCHAR(MAX NULL
+#       ,[Kreeg u voldoende informatie over wat u wel en niet mocht doen tijdens het herstel] VARCHAR(MAX NULL
+#       ,[Kreeg u voldoende informatie over eventuele problemen in de herstelperiode] VARCHAR(MAX NULL
+#       ,[Was het duidelijk met wie u contact kon opnemen bij vragen of problemen na de operatie] VARCHAR(MAX NULL
+#       ,[Geef uw rapportcijfer voor de door de kliniek verleende nazorg na de operatie] VARCHAR(MAX NULL
+#       ,[Wat vindt u van het resultaat van de operatie] VARCHAR(MAX NULL
+#       ,[Hoe tevreden bent u over het gehele traject rond de operatie] VARCHAR(MAX NULL
+#       ,[Heeft u tijdens uw behandeling in de kliniek te maken gehad met een onveilige situatie of incident] VARCHAR(MAX NULL
+#       ,[Ja namelijk Heeft u tijdens uw behandeling in de kliniek te maken gehad met een onveilige situatie of incident] VARCHAR(MAX NULL
+#       ,[Heeft u voldoende informatie gekregen over patientveiligheid in de kliniek] VARCHAR(MAX NULL
+#       ,[Werd voordat een behandeling onderzoek of ingreep begon gecontroleerd of u de juiste persoon was] VARCHAR(MAX NULL
+#       ,[Hoe veilig vond u de uitvoering van de gehele behandeling] VARCHAR(MAX NULL
+#       ,[Geef uw rapportcijfer voor de totaalindruk van de kliniek] VARCHAR(MAX NULL
+#    Cardiologie  |
+#       [Response ID] VARCHAR(MAX NULL
+#       ,[Date Submitted] VARCHAR(MAX NULL
+#       ,[Status] VARCHAR(MAX NULL
+#       ,[Link Name] VARCHAR(MAX NULL
+#       ,[Kreeg u vooraf informatie over de zorg in de kliniek  zodat u wist wat u kon verwachten] VARCHAR(MAX NULL
+#       ,[Bepaalt u samen met de zorgverleners welke zorg of behandeling u krijgt] VARCHAR(MAX NULL
+#       ,[Zijn de voor- en nadelen van de behandeling of operatie aan u verteld] VARCHAR(MAX NULL
+#       ,[Krijgt u duidelijke informatie over de werking van uw medicijnen] VARCHAR(MAX NULL
+#       ,[Krijgt u adviezen van zorgverleners over hoe u met uw ziekte of klachten kunt omgaan in de thuissituatie] VARCHAR(MAX NULL
+#       ,[Luisteren de zorgverleners goed naar u] VARCHAR(MAX NULL
+#       ,[Heeft u vertrouwen in de deskundigheid van de zorgverleners] VARCHAR(MAX NULL
+#       ,[Is er een goede samenwerking tussen de zorgverleners in de kliniek] VARCHAR(MAX NULL
+#       ,[Sluiten de verschillende afspraken goed op elkaar aan] VARCHAR(MAX NULL
+#       ,[Hebben medewerkers van de kliniek aandacht voor veiligheid] VARCHAR(MAX NULL
+#       ,[Wordt er schoon gewerkt door de medewerkers van de kliniek] VARCHAR(MAX NULL
+#       ,[Hoe gaat het nu met uw gezondheid als gevolg van de behandeling] VARCHAR(MAX NULL
+#       ,[Zou u de kliniek aanbevelen bij andere mensen met dezelfde ziekte of gezondheidsklachten] VARCHAR(MAX NULL
+#       ,[Bent u in de afgelopen 12 maanden opgenomen of behandeld geweest in de kliniek] VARCHAR(MAX NULL
+#       ,[Verborgen vraag Op welke Bergman Clinics locatie bent u behandeld] VARCHAR(MAX NULL
+#       ,[Verborgen vraag arts] VARCHAR(MAX NULL
+#       ,[Was dit een acceptabele termijn voor u] VARCHAR(MAX NULL
+#       ,[Hoe beoordeelt u de telefonische bereikbaarheid] VARCHAR(MAX NULL
+#       ,[Hoe werd u telefonisch geholpen] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de bereikbaarheid en parkeergelegenheid] VARCHAR(MAX NULL
+#       ,[Hoe beoordeelt u de ontvangst] VARCHAR(MAX NULL
+#       ,[Werd u op de afgesproken tijd ontvangen] VARCHAR(MAX NULL
+#       ,[Hoe beoordeelt u de wachttijd voorafgaand aan de afspraak] VARCHAR(MAX NULL
+#       ,[Betrof het een second opinion] VARCHAR(MAX NULL
+#       ,[Kreeg u van de specialist duidelijk antwoord op uw vragen] VARCHAR(MAX NULL
+#       ,[Gaf de specialist u informatie over waarom een bepaald onderzoek of bepaalde behandeling de voorkeur had] VARCHAR(MAX NULL
+#       ,[Kreeg u schriftelijke informatie ] VARCHAR(MAX NULL
+#       ,[Kreeg u informatie over hoe u zich kon voorbereiden op het onderzoek of de behandeling] VARCHAR(MAX NULL
+#       ,[Geef uw rapportcijfer voor de informatieverstrekking voorafgaand aan uw behandeling] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de tijd die de specialist voor u heeft genomen] VARCHAR(MAX NULL
+#       ,[Hoe goed heeft de specialist naar uw inbreng geluisterd] VARCHAR(MAX NULL
+#       ,[Wat vindt u van het persoonlijk contact met de specialist] VARCHAR(MAX NULL
+#       ,[Geef uw rapportcijfer voor de bejegening door de behandelaar naar u toe] VARCHAR(MAX NULL
+#       ,[Wat vindt u van de medische deskundigheid van de specialist] VARCHAR(MAX NULL
+#       ,[Zou u deze specialist bij uw vrienden of familie aanbevelen] VARCHAR(MAX NULL
+#       ,[Op welke Bergman Clinics locatie bent u behandeld] VARCHAR(MAX NULL
+#       ,[Anders namelijk Op welke Bergman Clinics locatie bent u behandeld] VARCHAR(MAX NULL
+#       ,[Was uw privacy voldoende gewaarborgd] VARCHAR(MAX NULL
+#       ,[Namen de hartfunctielaboranten u serieus] VARCHAR(MAX NULL
+#       ,[Hadden de hartfunctielaboranten genoeg tijd voor u] VARCHAR(MAX NULL
+#       ,[Luisterden de hartfunctielaboranten aandachtig naar u] VARCHAR(MAX NULL
+#       ,[Vertelden de hartfunctielaboranten wat er tijdens het onderzoek ging gebeuren] VARCHAR(MAX NULL
+#       ,[Welk cijfer geeft u de hartfunctielaboranten] VARCHAR(MAX NULL
+#       ,[Voelde u zich bij medewerkers in vertrouwde handen] VARCHAR(MAX NULL
+#       ,[Wat vindt u van het resultaat van het onderzoek of de behandeling] VARCHAR(MAX NULL
+#       ,[Geef uw rapportcijfer voor de behandeling] VARCHAR(MAX NULL
+#       ,[Is u verteld met wie u contact kon opnemen bij problemen of klachten] VARCHAR(MAX NULL
+#       ,[Geef uw rapportcijfer voor de door de kliniek verleende nazorg _herstelperiode  controles  medicatie  noodgevallen] VARCHAR(MAX NULL
+#       ,[Heeft u tijdens uw behandeling in de kliniek  te maken gehad met een onveilige situatie of incident] VARCHAR(MAX NULL
+#       ,[Ja  namelijk Heeft u  tijdens uw behandeling in de kliniek  te maken gehad met een onveilige situatie of incident] VARCHAR(MAX NULL
+#       ,[Heeft u voldoende informatie gekregen over pati&euml;ntveiligheid in de kliniek] VARCHAR(MAX NULL
+#       ,[Werd  voordat een behandeling  onderzoek of ingreep begon  gecontroleerd of u de juiste persoon was] VARCHAR(MAX NULL
+#       ,[Hoe veilig vond u de uitvoering van de gehele behandeling] VARCHAR(MAX NULL
+#       ,[Geef uw rapportcijfer voor de totaalindruk van de kliniek] VARCHAR(MAX NULL
+#    Uiterlijk  |
+#       [Response ID] VARCHAR(MAX) NULL
+#       ,[Date Submitted] VARCHAR(MAX) NULL
+#       ,[Status] VARCHAR(MAX) NULL
+#       ,[Invite Custom Field 1] VARCHAR(MAX) NULL
+#       ,[Invite Custom Field 2] VARCHAR(MAX) NULL
+#       ,[Link Name] VARCHAR(MAX) NULL
+#       ,[Kreeg u vooraf informatie over de zorg in de kliniek zodat u wist wat u kon verwachten] VARCHAR(MAX) NULL
+#       ,[Bepaalt u samen met de zorgverleners welke zorg of behandeling u krijgt] VARCHAR(MAX) NULL
+#       ,[Zijn de voor- en nadelen van de behandeling of operatie aan u verteld] VARCHAR(MAX) NULL
+#       ,[Krijgt u duidelijke informatie over de werking van uw medicijnen] VARCHAR(MAX) NULL
+#       ,[Krijgt u adviezen van zorgverleners over hoe u met uw ziekte of klachten kunt omgaan in de thuissituatie] VARCHAR(MAX) NULL
+#       ,[Luisteren de zorgverleners goed naar u] VARCHAR(MAX) NULL
+#       ,[Heeft u vertrouwen in de deskundigheid van de zorgverleners] VARCHAR(MAX) NULL
+#       ,[Is er een goede samenwerking tussen de zorgverleners in de kliniek] VARCHAR(MAX) NULL
+#       ,[Sluiten de verschillende afspraken goed op elkaar aan] VARCHAR(MAX) NULL
+#       ,[Hebben medewerkers van de kliniek aandacht voor veiligheid] VARCHAR(MAX) NULL
+#       ,[Wordt er schoon gewerkt door de medewerkers van de kliniek] VARCHAR(MAX) NULL
+#       ,[Hoe gaat het nu met uw gezondheid als gevolg van de behandeling] VARCHAR(MAX) NULL
+#       ,[Zou u de kliniek aanbevelen bij andere mensen met dezelfde ziekte of gezondheidsklachten] VARCHAR(MAX) NULL
+#       ,[Bent u in de afgelopen 12 maanden opgenomen of behandeld geweest in de kliniek] VARCHAR(MAX) NULL
+#       ,[Verborgen vraag Op welke Bergman Clinics locatie bent u behandeld] VARCHAR(MAX) NULL
+#       ,[Verborgen vraag Op welke Bergman Clinics locatie bent u behandeld Mijn Bergman app URL] VARCHAR(MAX) NULL
+#       ,[Verborgen vraag Door welke arts bent u behandeld] VARCHAR(MAX) NULL
+#       ,[Verborgen vraag Door welke arts bent u behandeld Mijn Bergman app URL] VARCHAR(MAX) NULL
+#       ,[Was dit een acceptabele termijn voor u] VARCHAR(MAX) NULL
+#       ,[Hoe beoordeelt u de telefonische bereikbaarheid ] VARCHAR(MAX) NULL
+#       ,[Hoe werd u telefonisch geholpen] VARCHAR(MAX) NULL
+#       ,[Wat vindt u van de bereikbaarheid en parkeergelegenheid] VARCHAR(MAX) NULL
+#       ,[Hoe beoordeelt u de ontvangst] VARCHAR(MAX) NULL
+#       ,[Werd u op de afgesproken tijd ontvangen] VARCHAR(MAX) NULL]
+#       ,[Hoe beoordeelt u de wachttijd voorafgaand aan het intake gesprek] VARCHAR(MAX) NULL
+#       ,[Kreeg u van de specialist duidelijk antwoord op uw vragen] VARCHAR(MAX) NULL
+#       ,[Gaf de specialist u informatie over waarom een bepaalde behandeling de voorkeur had] VARCHAR(MAX) NULL
+#       ,[Heeft de specialist u verteld over het resultaat dat u na de behandeling kon verwachten ] VARCHAR(MAX) NULL
+#       ,[Kreeg u informatie over hoe u zich kon voorbereiden op de behandeling] VARCHAR(MAX) NULL
+#       ,[Geef uw rapportcijfer voor de informatieverstrekking voorafgaand aan uw behandeling] VARCHAR(MAX) NULL
+#       ,[Wat vindt u van de tijd die de specialist voor u heeft genomen] VARCHAR(MAX) NULL
+#       ,[Hoe goed heeft de specialist naar uw inbreng geluisterd] VARCHAR(MAX) NULL
+#       ,[Wat vindt u van het persoonlijk contact met de specialist] VARCHAR(MAX) NULL
+#       ,[Geef uw rapportcijfer voor de bejegening door de behandelaar naar u toe] VARCHAR(MAX) NULL
+#       ,[Wat vindt u van de medische deskundigheid van de specialist] VARCHAR(MAX) NULL
+#       ,[Zou u deze specialist bij uw vrienden of familie aanbevelen] VARCHAR(MAX) NULL
+#       ,[Hoe beoordeelt u het aansluitende gesprek met de beauty coach of beauty advisor] VARCHAR(MAX) NULL
+#       ,[Op welke Bergman Clinics locatie bent u behandeld] VARCHAR(MAX) NULL
+#       ,[Anders namelijk Op welke Bergman Clinics locatie bent u behandeld] VARCHAR(MAX) NULL
+#       ,[Welke behandeling heeft u ondergaan_UHB] VARCHAR(MAX) NULL
+#       ,[Anders namelijk Welke behandeling heeft u ondergaan_UHB] VARCHAR(MAX) NULL
+#       ,[Welke behandeling heeft u ondergaan_UHHi] VARCHAR(MAX) NULL
+#       ,[Anders namelijk Welke behandeling heeft u ondergaan_UHHi] VARCHAR(MAX) NULL
+#       ,[Welke behandeling heeft u ondergaan_UHR] VARCHAR(MAX) NULL
+#       ,[Anders   namelijk Welke behandeling heeft u ondergaan_UHR] VARCHAR(MAX) NULL
+#       ,[Welke behandeling heeft u ondergaan_UHD] VARCHAR(MAX) NULL
+#       ,[Anders namelijk Welke behandeling heeft u ondergaan_UHD] VARCHAR(MAX) NULL
+#       ,[Welke behandeling heeft u ondergaan_UHH] VARCHAR(MAX) NULL
+#       ,[Anders namelijk Welke behandeling heeft u ondergaan _UHH] VARCHAR(MAX) NULL
+#       ,[Welke behandeling heeft u ondergaan_MSA] VARCHAR(MAX) NULL
+#       ,[Anders namelijk Welke behandeling heeft u ondergaan _MSA] VARCHAR(MAX) NULL
+#       ,[Welke behandeling heeft u ondergaan_MSB] VARCHAR(MAX) NULL
+#       ,[Anders namelijk Welke behandeling heeft u ondergaan _MSB] VARCHAR(MAX) NULL
+#       ,[Welke behandeling heeft u ondergaan_MSD] VARCHAR(MAX) NULL
+#       ,[Anders namelijk Welke behandeling heeft u ondergaan _MSD] VARCHAR(MAX) NULL
+#       ,[Welke behandeling heeft u ondergaan_MSH] VARCHAR(MAX) NULL
+#       ,[Anders namelijk Welke behandeling heeft u ondergaan _MSH] VARCHAR(MAX) NULL
+#       ,[Welke behandeling heeft u ondergaan_MSG] VARCHAR(MAX) NULL
+#       ,[Anders namelijk Welke behandeling heeft u ondergaan_MSG] VARCHAR(MAX) NULL
+#       ,[Welke behandeling heeft u ondergaan_MSZ] VARCHAR(MAX) NULL
+#       ,[Anders namelijk Welke behandeling heeft u ondergaan_MSZ] VARCHAR(MAX) NULL
+#       ,[Door wie bent u behandeld_UHB] VARCHAR(MAX) NULL
+#       ,[Anders namelijk Door wie bent u behandeld_UHB] VARCHAR(MAX) NULL
+#       ,[Door wie bent u behandeld_UHHi] VARCHAR(MAX) NULL
+#       ,[Anders namelijk Door wie bent u behandeld_UHHi] VARCHAR(MAX) NULL
+#       ,[Door wie bent u behandeld_UHR] VARCHAR(MAX) NULL
+#       ,[Anders namelijk Door wie bent u behandeld_UHR] VARCHAR(MAX) NULL
+#       ,[Door wie bent u behandeld_UHD] VARCHAR(MAX) NULL
+#       ,[Anders namelijk Door wie bent u behandeld_UHD] VARCHAR(MAX) NULL
+#       ,[Door wie bent u behandeld_UHH] VARCHAR(MAX) NULL
+#       ,[Anders namelijk Door wie bent u behandeld _UHH] VARCHAR(MAX) NULL
+#       ,[Door wie bent u behandeld _MSA] VARCHAR(MAX) NULL
+#       ,[Anders namelijk Door wie bent u behandeld _MSA] VARCHAR(MAX) NULL
+#       ,[Door wie bent u behandeld _MSB] VARCHAR(MAX) NULL
+#       ,[Anders   namelijk Door wie bent u behandeld _MSB] VARCHAR(MAX) NULL
+#       ,[Door wie bent u behandeld _MSD] VARCHAR(MAX) NULL
+#       ,[Door wie bent u behandeld _MSZ] VARCHAR(MAX) NULL
+#       ,[Anders   namelijk Door wie bent u behandeld _MSZ] VARCHAR(MAX) NULL
+#       ,[Door wie bent u behandeld _MSH] VARCHAR(MAX) NULL
+#       ,[Anders   namelijk Door wie bent u behandeld _MSH] VARCHAR(MAX) NULL
+#       ,[Door wie bent u behandeld _MSG] VARCHAR(MAX) NULL
+#       ,[Anders namelijk Door wie bent u behandeld _MSG] VARCHAR(MAX) NULL
+#       ,[Werd u gedurende het hele traject door dezelfde arts behandeld] VARCHAR(MAX) NULL
+#       ,[Was dit een acceptabele termijn voor u] VARCHAR(MAX) NULL
+#       ,[Hoe lang bent u ná de behandeling gebleven] VARCHAR(MAX) NULL
+#       ,[Hoe beoordeelt u de bijkomruimte] VARCHAR(MAX) NULL
+#       ,[Hoe beoordeelt u de patientenkamer ] VARCHAR(MAX) NULL
+#       ,[Was uw privacy voldoende gewaarborgd ] VARCHAR(MAX) NULL
+#       ,[Was het eten lekker ] VARCHAR(MAX) NULL
+#       ,[Kon u eten op de tijdstippen dat u dat wilde] VARCHAR(MAX) NULL
+#       ,[Namen de verpleegkundigen u serieus ] VARCHAR(MAX) NULL
+#       ,[Hadden de verpleegkundigen genoeg tijd voor u ] VARCHAR(MAX) NULL
+#       ,[Luisterden de verpleegkundigen aandachtig naar u ] VARCHAR(MAX) NULL
+#       ,[Legden verpleegkundigen u dingen op een begrijpelijke manier uit ] VARCHAR(MAX) NULL
+#       ,[Welk cijfer geeft u de verpleegkundigen ] VARCHAR(MAX) NULL
+#       ,[Deden medewerkers alles wat ze konden om u met uw pijn te helpen] VARCHAR(MAX) NULL
+#       ,[Voelde u zich bij medewerkers in vertrouwde handen] VARCHAR(MAX) NULL
+#       ,[Wat vindt u van het resultaat van de behandeling] VARCHAR(MAX) NULL
+#       ,[Geef uw rapportcijfer voor de behandeling] VARCHAR(MAX) NULL
+#       ,[Kreeg u informatie over waar u last van kon krijgen n&aacute; de behandeling] VARCHAR(MAX) NULL
+#       ,[Is u verteld met wie u contact kon opnemen bij problemen of klachten] VARCHAR(MAX) NULL
+#       ,[Wat vindt u van het After Care pakket voor een beter herstel] VARCHAR(MAX) NULL
+#       ,[Geef uw rapportcijfer voor de door de kliniek verleende nazorg] VARCHAR(MAX) NULL
+#       ,[Heeft u tijdens uw behandeling in de kliniek   te maken gehad met een onveilige situatie of incident] VARCHAR(MAX) NULL
+#       ,[Ja namelijk  Heeft u tijdens uw behandeling in de kliniek te maken gehad met een onveilige situatie of incident] VARCHAR(MAX) NULL
+#       ,[Heeft u voldoende informatie gekregen over pati&euml;ntveiligheid in de kliniek] VARCHAR(MAX) NULL
+#       ,[Werd  oordat een behandeling onderzoek of ingreep begon gecontroleerd of u de juiste persoon was] VARCHAR(MAX) NULL
+#       ,[Hoe veilig vond u de uitvoering van de gehele behandeling] VARCHAR(MAX) NULL
+#       ,[Geef uw rapportcijfer voor de totaalindruk van de kliniek] VARCHAR(MAX) NULL
+#    BewegenNew  |
+#       [Response ID] VARCHAR(MAX) NULL
+#       ,[Test2] VARCHAR(MAX) NULL

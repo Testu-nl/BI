@@ -1,0 +1,38 @@
+Api:
+
+#    -
+#        Naam: Cardiologie
+#        BestandNaam: Cardiologie
+#        Token: 30664-10417076-e6d3b4da7dddf79b3c9bc67dee092704&realtime=true
+#        Wachtwoord: Brgm4526
+#        Table: Cardiologie
+    -
+        Naam: Scopie
+        BestandNaam: Scopie
+        Token: 30664-10336191-145e57681c1b766ce525fff98a35f5ec&realtime=true
+        Wachtwoord: Brgm4526
+        Table: Scopie
+#    -
+#        Naam: BewegenNew
+#        BestandNaam: Bewegen
+#        Token: 30664-10469212-205a95d77cf62d9be96487bf7a4425c3&realtime=true
+#        Wachtwoord: Brgm4526
+#        Table: Bewegen2
+#    -
+#        Naam: Uiterlijk
+#        BestandNaam: Uiterlijk
+#        Token: 30664-10469129-bc0ab460dede072e5d9a63ae6e3221fa&realtime=true
+#        Wachtwoord: Brgm4526
+#        Table: Uiterlijk
+#    -
+#        Naam: Ogen
+#        BestandNaam: Ogen
+#        Token: 30664-10489083-f3a80c4cc8febcecfaf57aca965b323e&realtime=true
+#        Wachtwoord: Brgm4526
+#        Table: Ogen
+#    -
+#        Naam: Vrouwenzorg
+#        BestandNaam: Vrouwenzorg
+#        Token: 30664-10562566-59232402b60e2274ab5d5913d7ea7212&realtime=true
+#        Wachtwoord: Brgm4526
+#        Table: Vrouwenzorg

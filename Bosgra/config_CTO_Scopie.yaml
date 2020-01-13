@@ -1,0 +1,7 @@
+Api:
+    BaseUrl: https://data.surveygizmo.com/reportsview
+Sql:
+    Server: tcp:BMC-DB-03.hosted.local
+    Database: Dwh_Staging
+    Schema: Bosgra
+#    Table: Scopie
