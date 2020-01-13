@@ -16,3 +16,4 @@ def divide(a, b):
 
 # test commit this changes to the Python projects
 # waarom lukt het gvd niet
+# het lukt mnog steeds niet
