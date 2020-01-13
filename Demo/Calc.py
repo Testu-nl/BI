@@ -17,3 +17,4 @@ def divide(a, b):
 # test commit this changes to the Python projects
 # waarom lukt het gvd niet
 # het lukt mnog steeds niet
+# nu lukt het wl in Github nu nog Azure Devops
